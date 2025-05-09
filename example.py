@@ -214,16 +214,7 @@ indic_indic_tokenizer, indic_indic_model = initialize_model_and_tokenizer(
 #                              English to Hindi
 # ---------------------------------------------------------------------------
 en_sents = [
-    "When I was young, I used to go to the park every day.",
-    "He has many old books, which he inherited from his ancestors.",
-    "I can't figure out how to solve my problem.",
-    "She is very hardworking and intelligent, which is why she got all the good marks.",
-    "We watched a new movie last week, which was very inspiring.",
-    "If you had met me at that time, we would have gone out to eat.",
-    "She went to the market with her sister to buy a new sari.",
-    "Raj told me that he is going to his grandmother's house next month.",
-    "All the kids were having fun at the party and were eating lots of sweets.",
-    "My friend has invited me to his birthday party, and I will give him a gift.",
+  " Cold: 100mg of cough syrup\n- Cough: 200mg of dextromethorphan\n\nAdvice: If the symptoms are unclear or dangerous, consult a doctor. Cold: If the cold is severe, consider using a decongestant to help relieve the congestion. Cough: If the cough is severe, consider using a decongestant to help relieve the congestion. Dextromethorphan: If the cough is severe, consider using a decongestant to help relieve the congestion. If the symptoms are unclear or dangerous, consult a doctor."
 ]
 src_lang, tgt_lang = "eng_Latn", "hin_Deva"
 hi_translations = batch_translate(
